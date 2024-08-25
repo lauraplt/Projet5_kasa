@@ -11,7 +11,7 @@ function Home() {
     return (
         <div className="home">
             <Banner image={Homebanner} text="Chez vous, partout et ailleurs"/> 
-            <div className="accommodations-list">
+            <div className="Accommodations-list">
                 {AccommodationsList.map((Accommodations) => (
                     <NavLink key={Accommodations.id} to={`/Accommodations/${Accommodations.id}`}>
                         <Card key={Accommodations.id} id={Accommodations.id} image={Accommodations.cover} title={Accommodations.title} /> 
