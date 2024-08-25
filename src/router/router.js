@@ -19,7 +19,7 @@ function router () {
                     <Route path="/" element={<Home />} /> 
                     <Route path="/accueil" element={<Home />} /> 
                     <Route path="/a-propos" element={<About />} /> 
-                    <Route path="/logements/:id" element={<Accommodations />} /> 
+                    <Route path="/Accommodations/:id" element={<Accommodations />} /> 
                     <Route path="*" element={<NotFound />} /> 
                 </Routes>
             </Layout>

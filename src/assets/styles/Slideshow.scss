@@ -1,0 +1,106 @@
+.slide-show {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    margin: auto auto 30px auto;
+
+    .slide-arrow {
+        position: absolute;
+        width: 0px;
+        z-index: 1;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .left-slide-arrow {
+        margin-left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .right-slide-arrow {
+        margin-right: 25px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%) rotate(-180deg);
+    }
+
+    .slide-show-img {
+        border-radius: 15px;
+        height: 415px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+
+        &.on {
+            opacity: 1;
+            position: relative;
+            z-index: 0;
+        }
+    }
+
+    .slide-show-counter {
+        position: absolute;
+        bottom: 10px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        z-index: 2;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+  
+      .left-slide-arrow {
+        margin-left: 5px;
+      }
+  
+      .right-slide-arrow {
+        margin-right: 5px;
+      }
+  
+      .slide-show-img {
+        height: 255px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .slide-show {
+            width: 335px;
+            height: 255px;
+    
+            .slide-show-img {
+                width: 335px;
+                height: 255px;
+            }
+    
+            .left-slide-arrow,
+            .right-slide-arrow {
+                img {
+                    width: 24px !important;
+                    height: 24px !important;
+                }
+            }
+
+            .slide-show-counter{
+                display: none;
+            }
+    
+            .left-slide-arrow {
+                margin-left: 10px;
+            }
+    
+            .right-slide-arrow {
+                margin-right: 10px;
+            }
+        }
+    }
