@@ -1,8 +1,8 @@
 import React from "react";
-import "../assets/styles/layout.scss";
+import "../assets/styles/Layout.scss";
 import AboutBanner from "../assets/images/image-source-2.png"; 
 import "../assets/styles/Banner.scss";
-import Banner from "../components/banner";
+import Banner from "../components/Banner";
 import Collapse from "../components/Collapse"; 
 import "../assets/styles/About.scss";
 

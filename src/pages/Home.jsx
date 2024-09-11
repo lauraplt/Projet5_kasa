@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/styles/Home.scss";
-import Banner from "../components/banner"; 
+import Banner from "../components/Banner"; 
 import Homebanner from "../assets/images/image-source-1.png"; 
 import { NavLink } from "react-router-dom";
-import Card from "../components/card"; 
+import Card from "../components/Card"; 
 import AccommodationsList from "../assets/accommodations.json";
 
 

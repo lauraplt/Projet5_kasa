@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/layout.scss";
+import "../assets/styles/Layout.scss";
 import NotFoundImage from "../assets/images/404.png";
 import "../assets/styles/NotFound.scss";
 

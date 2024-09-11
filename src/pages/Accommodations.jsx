@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/Accommodations.scss"; 
 import { useParams, Navigate } from 'react-router-dom'; 
 import AccommodationsList from "../assets/accommodations.json"; 
-import SlideShow from "../components/slideshow"; 
+import SlideShow from "../components/Slideshow"; 
 import Tag from "../components/Tag"; 
 import Star from "../assets/images/star.svg"; 
 import EmptyStar from "../assets/images/emptystar.svg"; 
