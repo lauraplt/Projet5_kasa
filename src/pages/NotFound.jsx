@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/styles/Layout.scss";
+import "../assets/styles/layout.scss";
 import NotFoundImage from "../assets/images/404.png";
-import "../assets/styles/NotFound.scss";
+import "../assets/styles/notFound.scss";
 
 function NotFound() {
     return (
@@ -12,5 +12,4 @@ function NotFound() {
         </div>
     );
 }
-
 export default NotFound;

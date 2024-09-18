@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/Home.scss";
+import "../assets/styles/home.scss";
 import Banner from "../components/Banner"; 
 import Homebanner from "../assets/images/image-source-1.png"; 
 import { NavLink } from "react-router-dom";
@@ -21,5 +21,4 @@ function Home() {
         </div>
     );
 }
-
 export default Home;

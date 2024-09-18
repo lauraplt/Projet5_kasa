@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/Tag.scss";
+import "../assets/styles/tag.scss";
 
 /**
  * Tag component displays a tag with a specified name.
@@ -14,5 +14,4 @@ function Tag({ name }) {
         <span className="tag">{name}</span>
     );
 }
-
 export default Tag; 

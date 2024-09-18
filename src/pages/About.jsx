@@ -1,10 +1,10 @@
 import React from "react";
-import "../assets/styles/Layout.scss";
+import "../assets/styles/layout.scss";
 import AboutBanner from "../assets/images/image-source-2.png"; 
-import "../assets/styles/Banner.scss";
+import "../assets/styles/banner.scss";
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse"; 
-import "../assets/styles/About.scss";
+import "../assets/styles/about.scss";
 
 function About() {
     return (

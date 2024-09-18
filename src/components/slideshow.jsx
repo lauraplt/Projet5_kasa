@@ -1,5 +1,5 @@
 import React, { useState } from "react"; 
-import "../assets/styles/Slideshow.scss"; 
+import "../assets/styles/slideshow.scss"; 
 import SlideArrow from "../assets/images/slide-arrow.svg";
 
 

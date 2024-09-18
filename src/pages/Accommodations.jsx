@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/Accommodations.scss"; 
+import "../assets/styles/accommodations.scss"; 
 import { useParams, Navigate } from 'react-router-dom'; 
 import AccommodationsList from "../assets/accommodations.json"; 
 import SlideShow from "../components/Slideshow"; 

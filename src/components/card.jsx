@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/Card.scss";
+import "../assets/styles/card.scss";
 
 function Card({id, image, title}) {
     return(
@@ -11,5 +11,4 @@ function Card({id, image, title}) {
         </div>
     );
 }
-
 export default Card;

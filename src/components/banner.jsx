@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/Banner.scss";
+import "../assets/styles/banner.scss";
 
 function Banner ({image, text}) {
     return(
@@ -10,5 +10,4 @@ function Banner ({image, text}) {
         </div>
     );
 }
-
 export default Banner;

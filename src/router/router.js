@@ -5,7 +5,7 @@ import Home from '../pages/Home';
 import About from '../pages/About'; 
 import Accommodations from '../pages/Accommodations'; 
 import NotFound from '../pages/NotFound';
-import '../App.css'; 
+import '../app.css'; 
 
 /**
  * Component that defines the routing structure of the application using React Router.
