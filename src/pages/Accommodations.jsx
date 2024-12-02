@@ -24,9 +24,9 @@ function Accommodations() {
     let accommodations_rating = [];
     for (let index = 0; index < 5; index++) {
         if (index < parseInt(ACCOMMODATIONS_SHEET.rating, 10)) {
-            accommodations_rating.push(<img key={index} className="star" src={Star} alt={`${ACCOMMODATIONS_SHEET.rating}/5`} />);
+            accommodations_rating.push(<img key={index} className="star" src={Star} alt="" />);
         } else {
-            accommodations_rating.push(<img key={index} className="star" src={EmptyStar} alt={`${ACCOMMODATIONS_SHEET.rating}/5`} />);
+            accommodations_rating.push(<img key={index} className="star" src={EmptyStar} alt="" />);
         }
     }
 
